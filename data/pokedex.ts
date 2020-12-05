@@ -1,4 +1,17 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
+	rampastry: {
+		num: 1006,
+		name: "Rampastry",
+		types: ["Fairy", "Fighting"],
+		genderRatio: {M: 0.5, F: 0.5},
+		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
+		abilities: {0: "Sweet Veil", H: "Chlorophyll"},
+		heightm: 0.7,
+		weightkg: 6.9,
+		color: "Green",
+		evos: ["Ivysaur"],
+		eggGroups: ["Monster", "Grass"],
+	},
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
